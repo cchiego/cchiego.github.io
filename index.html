@@ -1,27 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head> 
-    <body bgcolor="#DCE9FF">
-      <meta charset="utf-8">
-    <title>Chris Chiego's Academic Website</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christopher Chiego</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <h1> Chris Chiego </h1>
-    
-    <div style= "word-wrap; width:600px;">I am an assistant professor in the <a href="https://www.csum.edu/global-studies/">
-     Global Studies and Maritime Affairs Department</a>
-      at <a href="https://www.csum.edu/"> California State University Maritime Academy</a> in Vallejo, California.</div>
-    
-    <p>Please feel free to follow the links to my:</p>
-    <ul>
-      <li>Research</li>
-      <li>Teaching</li>
-      <li>Community Engagement</li>
-    </ul>
+  <header>
+    <div class="container">
+      <h1>Christopher Chiego</h1>
+      <p class="title">Assistant Professor of International Strategy and Security</p>
+    </div>
+  </header>
 
-    <p>Note that this is a personal academic website
-    and items/views contained herein are my own 
-    and not necessarily representative of any other entity.</p>
-  </body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html" class="active">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <section>
+        <div class="about-grid">
+          <div class="about-photo">[Photo]</div>
+          <div class="about-text">
+            <p>I am an Assistant Professor of International Strategy and Security at <a href="https://maritime-archive.calpoly.edu/global-studies/"><strong>Cal Poly Maritime Academy</strong></a> (Solano Campus), affiliated with the <a href="https://philosophy.calpoly.edu/">Cal Poly, San Luis Obispo Department of Philosophy</a>. Previously, International Strategy and Security (ISS) was known as Global Studies and Maritime Affairs (GSMA).</p>
+
+            <p>My research focuses on conflict and war termination, maritime security, historical legacies of conflict, and cybersecurity. I received my Ph.D. in Political Science from the <strong>University of Pennsylvania</strong> in 2020, where my dissertation examined the roots of decisive war outcomes.</p>
+
+            <p>Before coming to Cal Poly Maritime, I was a Donald R. Beall Defense Fellow at the Naval Postgraduate School and a Visiting Assistant Professor of Political Science at Haverford College.</p>
+
+            <dl class="contact-info">
+              <dt>Email</dt>
+              <dd><span id="email-reveal" style="cursor:pointer; color:#24405e; text-decoration:underline;" onclick="this.outerHTML='<a href=\'mailto:cchiego@csum.edu\'>cchiego@csum.edu</a>'">Click to reveal email</span></dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research Interests</h2>
+        <p>International security &bull; War and conflict termination &bull; Maritime security &bull; Historical analogies and political violence &bull; Cybersecurity &bull; Higher education policy</p>
+      </section>
+
+      <section>
+        <h2>Recent Publications</h2>
+        <ul class="pub-list">
+          <li>
+            <p>Skoll, A. and <strong>Chiego, C.</strong> (2025). Time for a rebrand? Examining the efforts of college departments in the California State University system to reimagine, reinvent, reposition, and rebrand themselves in response to a changing higher education landscape. <em class="journal">Politics</em>.</p>
+          </li>
+          <li>
+            <p>Gilbert, V. and <strong>Chiego, C.</strong> (2025). Analogies in revolt: How historical analogies shaped resistance in Iraq, 2003&ndash;2004. <em class="journal">Cooperation and Conflict</em>.</p>
+          </li>
+          <li>
+            <p>Gilbert, V. and <strong>Chiego, C.</strong> (2025). The Great Syrian Revolts: Explaining Continuity in the Geography of Syrian Violence. <em class="journal">Nations and Nationalism</em> 31(2), pp. 309&ndash;322.</p>
+          </li>
+        </ul>
+        <p><a href="research.html">View all research &rarr;</a></p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Christopher Chiego &bull; Views expressed are my own and not representative of any institution.</p>
+  </footer>
+
+</body>
 </html>
